@@ -50,3 +50,13 @@ function addition(number1, number2){
 }
 
 addition(num1, num2)
+
+function printNtimes(n, message){
+    while(n > 0){
+        console.log(message + " " + n)
+        n = n - 1
+    }
+}
+
+printNtimes(4, "Welcome to Air Asia Academy")
+printNtimes(10, "Javascript is easy!")
