@@ -15,7 +15,7 @@
         }
     </style>
 </head>
-<body>
+<body onmousemove="capturePosition(event)">
     <h1>Javascript is easy!!!!</h1>
     <h2 style="background-color: yellow;">Places to visit:</h2>
     <ol id="citynames">
@@ -24,7 +24,7 @@
         <li>Phillipines</li>
         <li>Vietnam</li>
     </ol>
-    <p id="paragraph">Lorem Ipsum is simply dummy text of the 
+    <p id="para1">Lorem Ipsum is simply dummy text of the 
         printing and typesetting industry. Lorem Ipsum has 
         been the industry's standard dummy text ever since 
         the 1500s, when an unknown printer took a galley of 
@@ -37,8 +37,18 @@
          publishing software like Aldus PageMaker including 
          versions of Lorem Ipsum.
         </p>
-        <button>Change the Para</button>
+        <button onclick="alert('Button is clicked!!!!')">On Click</button>
+        <br><br>
+        <button ondblclick="alert('Button is double clicked!!!!')">On Double Click</button>
+        <br><br>
+        <button onmouseout="alert('Mouse is out. No need to fear!!!!')">On Mouse Out</button>
+        <br><br>
+        <button onclick="welcome()">Click me to say Hello in console</button>
 
+        <br><br>
+        X: <span id="xposition">0</span>
+        <br><br>
+        Y: <span id="yposition">0</span>
     <!--  I am a single line comment! -->
 
     <!--  
@@ -61,6 +71,6 @@
         console.log("Hello Javascript 2")
        
     </script>
-     <script src="script_day03_function.js"></script>
+     <script src="script_day03_events.js"></script>
 </body>
 </html>
