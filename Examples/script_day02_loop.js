@@ -22,3 +22,10 @@ while (score <= 10) {
 }
 
 console.log("Exited the loop as condition was fulfilled.")
+
+const rigid = 3.14
+
+console.log(rigid)
+//you cannot change the constant value
+//rigid  = 9
+

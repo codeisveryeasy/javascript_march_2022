@@ -28,7 +28,7 @@ var n1 = 88
 var n2 = 12
 console.log(n1+n2)
 
-var amount = 88.88
+var amount = 88.88   //decimal or floats    
 console.log(amount)
 
 var check = true 
