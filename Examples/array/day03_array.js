@@ -24,6 +24,8 @@ var myScores =  [5, 4, 2, 4, 3]
 var myFriends = [ "gone", "mone", "tone", "lone"]
 console.log(myScores)
 console.log(myFriends)
+myFriends[2] = "swim"
+console.log(myFriends);
 
 function calculateSumOfAllNumbersInArray(numbers){
     var sum = 0
@@ -36,3 +38,9 @@ function calculateSumOfAllNumbersInArray(numbers){
 }
 
 calculateSumOfAllNumbersInArray(myScores)
+
+myFriends.push("uone")
+console.log(myFriends)
+var newFriend = prompt("Enter friend name: ")
+myFriends.push(newFriend)
+console.log(myFriends)
