@@ -16,7 +16,7 @@ var academyName = "AAA"
 // person.weight
 
 
-console.log(typeof(score) )
+console.log(typeof score )
 console.log(typeof(check))
 console.log(typeof(academyName))
 console.log(typeof(document))

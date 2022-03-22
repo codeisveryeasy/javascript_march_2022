@@ -7,7 +7,7 @@ var scores = new Array(88, 71, 62, 53, 44, 31, 22)
 console.log(scores)
 console.log(typeof scores)
 
-//within the parray, the position of the
+//within the array, the position of the
 //first element/value is always 0
 
 console.log(scores[0])
@@ -19,6 +19,9 @@ var friends = new Array("Onk", "Mia", "Kia", "Che")
 console.log(friends)
 console.log("Length of friends array: " + friends.length)
 console.log(friends[2])
+
+//below does not exist -> undefined
+//console.log(friends[5])
 
 var myScores =  [5, 4, 2, 4, 3]
 var myFriends = [ "gone", "mone", "tone", "lone"]

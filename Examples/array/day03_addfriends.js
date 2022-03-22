@@ -2,13 +2,16 @@ console.log("Add friends in an array!")
 
 var friends = []
 console.log(friends)
+console.log("Length of friends array: " + friends.length)
 
 friends.push("omi")
 console.log(friends)
+console.log("Length of friends array: " + friends.length)
 
 
 friends.push("kia")
 console.log(friends)
+console.log("Length of friends array: " + friends.length)
 
 
 while(true){

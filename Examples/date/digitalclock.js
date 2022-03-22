@@ -17,4 +17,16 @@ function displayClock(){
 
     var clockRef = document.getElementById("clock")
     clockRef.innerText = displayTime
+
+    var hourRef =  document.getElementById("hour")
+    hourRef.innerHTML = "<span style='color:red;'>" + hour + "</span>"
+
+    var minRef =  document.getElementById("min")
+    minRef.innerHTML =  "<span style='color:green;'>" + min + "</span>"
+
+    var secRef =  document.getElementById("sec")
+    secRef.innerHTML =  "<span style='color:blue;'>" + min + "</span>"
+
+    var msRef =  document.getElementById("ms")
+    msRef.innerHTML =  "<span style='color:pink;'>" + ms + "</span>"
 }
