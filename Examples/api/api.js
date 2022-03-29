@@ -9,6 +9,8 @@ console.log(usersref)
 async function getData(){
     
     let response  = await fetch("https://jsonplaceholder.typicode.com/users")
+    //let response = await fetch("https://jsonplaceholder.typicode.com/posts/")
+    //let response = await fetch("http://localhost:3000/friends")
     console.log(response)
     console.log(response.status)
     if(response.status == 200){
@@ -26,6 +28,7 @@ async function getData(){
         for (let index = 0; index < users.length; index++) {
             var newli = document.createElement("li")
             newli.innerText = users[index].name + " @ id: " + users[index].id
+            //newli.innerText = users[index].title + " @ id: " + users[index].id
             usersref.appendChild(newli)
             
         }

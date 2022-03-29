@@ -1,0 +1,32 @@
+{
+  "friends": [
+    {
+      "name": "Obbo",
+      "location": "Kuala Lumpur",
+      "since": 4,
+      "stillintouch": true,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "JiJi",
+      "location": "Space",
+      "since": 40,
+      "stillintouch": true
+    },
+    {
+      "id": 4,
+      "name": "Moh",
+      "location": "Maya",
+      "since": 20,
+      "stillintouch": true
+    },
+    {
+      "name": "HiYa",
+      "location": "Korea",
+      "since": 1,
+      "stillintouch": false,
+      "id": 6
+    }
+  ]
+}
