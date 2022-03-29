@@ -1,0 +1,17 @@
+[
+   {
+    "id": 1,
+     "task": "discuss about API",
+     "status": true
+  },
+  {
+    "id": 2,
+     "task": "discuss about JSON",
+     "status": true
+  },
+  {
+    "id": 3,
+     "task": "discuss about ES6",
+     "status": false
+  }
+]
